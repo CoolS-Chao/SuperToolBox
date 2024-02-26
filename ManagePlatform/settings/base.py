@@ -57,7 +57,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'ManagePlatform.urls'
-# AUTH_USER_MODEL = 'users.Users' # 自定义用户模型
+AUTH_USER_MODEL = 'publicAdmin.Users' # 自定义用户模型
 
 TEMPLATES = [
     {

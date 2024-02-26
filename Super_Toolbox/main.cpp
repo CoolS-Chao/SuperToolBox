@@ -1,11 +1,11 @@
-#include "ToolBox.h"
+#include "DBViewer.h"
 
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    ToolBox w;
+    SQLiteViewer w;
     w.show();
     return a.exec();
 }
